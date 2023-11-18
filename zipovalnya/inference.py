@@ -4,7 +4,7 @@ import pandas as pd
 import os
 import re
 
-PATH_DATA = 'data'
+PATH_DATA = './data'
 # PATH_DATA = r'C:\Users\bende\Projects\PycharmProjects\SBER_ML_hack_22-59\data'
 MODEL_PATH = 'model.pkl'
 ENC_MCC_PATH = 'enc_mcc.joblib'

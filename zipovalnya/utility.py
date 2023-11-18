@@ -74,7 +74,8 @@ def preprocess_text(sentence, stem=False):
     text = []
     for word in sentence:
 
-        if word not in stopwords:
+        # if word not in stopwords:
+        if True:
             word_rus = re.findall(r'[А-я]+', word)
             word_eng = re.findall(r'[A-z]+', word)
             if stem:
