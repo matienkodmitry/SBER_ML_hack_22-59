@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 .idea
 venv
+data
+zipovalnya/data
+zipovalnya/*.zip
