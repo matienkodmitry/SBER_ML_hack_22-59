@@ -8,7 +8,7 @@
  ## Запуск веб-демо
 Запустить веб-демо можно локально выполнив команду в консоли
 
-`streamlit run web.py` - запуск Streamlit. 
+`streamlit run inference.py` - запуск Streamlit. 
 
 ## Модель
 Итоговая модель, выбранная нами, - это catboost обученный на фичах, использующих `mcc_code`, `trans_city`, `day_week`, `day_month`, различные статистики (`std`, `mean` etc.) от рассходов и доходов в `amount`, `trans_type`, `hours`, `month_number`, `week_number`.
